@@ -1,5 +1,14 @@
 @import 'reset';
 
-p {
-  color: red;
+header img {
+	width: 960px;
+}
+
+.container {
+	outline: solid 1px red;
+	width: 960px;
+}
+
+h1 {
+	color: red;
 }
