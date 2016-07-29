@@ -48,9 +48,116 @@ table {
 header img {
   width: 960px; }
 
-.container {
-  outline: solid 1px red;
+h1 {
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 30px; }
+
+h2 {
+  font-size: 1.5em;
+  font-family: sans-serif;
+  font-weight: bold;
+  line-height: 2em;
+  margin-top: 50px; }
+
+h3 {
+  font-size: .7em;
+  font-weight: bold;
+  padding: 3px 0; }
+
+h5 {
+  font-style: italic;
+  font-size: .7em;
+  padding: 15px 0; }
+
+h6 {
+  color: #aaa9ab;
+  line-height: 1.5em; }
+
+p {
+  color: #aaa9ab;
+  line-height: 1.5em; }
+
+.outer-container {
+  align-items: center;
+  position: relative;
   width: 960px; }
 
-h1 {
-  color: red; }
+.round-logo img {
+  border: solid 5px white;
+  border-radius: 100%;
+  position: absolute;
+  top: 290px;
+  left: 140px;
+  width: 75px; }
+
+.inner-container {
+  overflow: auto;
+  width: 960px; }
+
+.search {
+  margin: 20px 0; }
+
+.column1 {
+  float: left;
+  width: 140px; }
+
+.column1 p {
+  color: white; }
+
+.column2 {
+  float: left;
+  width: 140px; }
+
+.column2 p {
+  padding: 0 0 20px 0; }
+
+.column3 {
+  float: left;
+  padding: 0 30px;
+  width: 385px; }
+
+.column4 {
+  float: left;
+  height: 400px;
+  width: 220px;
+  position: relative; }
+
+h5 span {
+  color: #559fca; }
+
+.class-pic img {
+  width: 325px; }
+
+.follow-box {
+  border: solid 1px #aaa9ab;
+  font-family: sans-serif;
+  overflow: auto;
+  position: absolute;
+  bottom: 5px; }
+
+.small-logo img {
+  width: 30px;
+  float: left; }
+
+.follow-button {
+  background-color: #559fca;
+  color: white;
+  float: right;
+  width: 50px; }
+
+.tiyhouston {
+  float: left;
+  padding-left: 3px;
+  width: 120px; }
+
+h3 span {
+  color: #aaa9ab;
+  font-size: .6em;
+  font-weight: bold; }
+
+.never {
+  border: solid 1px #aaa9ab;
+  width: 220px;
+  clear: both; }
