@@ -1,6 +1,9 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 
+gulp.default('default', function() {
+console.log('default task run');
+});
 
 gulp.task('sass', function () {
   return gulp.src('./scss/*.scss')
